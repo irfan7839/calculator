@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </script>
+    <style>
+        .container {
+            margin-top: 50px;
+            width: 300px;
+            height: 320px;
+            background-color: gray;
+            border: 2px solid black;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .button{
+            border: 1px solid black;
+             border-radius: 5px; 
+            background-color: yellow;
+            cursor: pointer;
+
+        }
+        .button:hover{
+            background-color: rgb(125, 123, 123);
+        }
+        .screen1{
+            background-color: grey;
+        }
+        .row{
+            margin-top: 10px;
+        }
+        .screen1,.screen2{
+            width: 250px;
+            border: 1px solid black;
+            border-radius: 3px;
+            text-align: right;
+        }
+    </style>
+  
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Calculator</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="text" class="screen1" id="screen1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="text" class="screen2" id="screen2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+               <button  type="button" class="button" id="button">9</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">8</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">7</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">+</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+               <button  type="button" class="button" id="button">6</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">5</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">4</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">-</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+               <button  type="button" class="button" id="button" >3</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">2</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">1</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">*</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+               <button  type="button" class="button" id="button">c</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">0</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">=</button>
+            </div>
+            <div class="col">
+                <button  type="button" class="button" id="button">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+
+</html>
